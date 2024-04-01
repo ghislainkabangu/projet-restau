@@ -6,11 +6,12 @@ body {
 /*****************************header**********************************/
 header {
     padding: 30px;
-    background-image: url("../album/victoria-shes-UC0HZdUitWY-unsplash.jpg");
+  /*  background-image: url("../album/victoria-shes-UC0HZdUitWY-unsplash.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
+    background-color: red;
    /* animation: monAnim 5s alternate infinite;*/
 }
 
