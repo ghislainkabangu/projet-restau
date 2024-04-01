@@ -12,7 +12,7 @@ header {
     background-repeat: no-repeat;
     background-attachment: fixed;
 
-    /* animation: monAnim 5s alternate infinite;*/
+    animation: monAnim 5s alternate infinite;
 }
 
 header h1,
@@ -40,7 +40,6 @@ header p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/*
 @keyframes monAnim {
     form {
         background-image: url("album/victoria-shes-UC0HZdUitWY-unsplash.jpg");
@@ -58,7 +57,7 @@ header p {
         background-attachment: fixed;
     }
 }
-*/
+
 /*************************Main***************************************/
 main {
     margin: auto;
@@ -254,6 +253,7 @@ article h2 {
     text-align: center;
     color: rgb(0, 191, 255);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Pacifico", cursive;;
     font-size: 30px;
 }
 
