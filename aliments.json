@@ -1,0 +1,50 @@
+[
+  {
+    "photo": "album/images (12).jpg",
+    "description": "Couisine étrangère",
+    "valeur": "0.6$",
+    "slogan": "Milles saveurs gourmandes"
+  },
+  {
+    "photo": "album/palt1.jpg",
+    "description": "Couisine locale",
+    "valeur": "0.10$",
+    "slogan": "Les merveilles du congo"
+  },
+  {
+    "photo": "album/american.jpg",
+    "description": "Couisine étrangère",
+    "valeur": "0.5$",
+    "slogan": "Délicieuse rondeurs"
+  },
+  {
+    "photo": "album/local.jpg",
+    "description": "Couisine locale",
+    "valeur": "0.8$",
+    "slogan": "Offrande congolaise"
+  },
+  {
+    "photo": "album/téléchargement (14).jpg",
+    "description": "Couisine étrangère",
+    "valeur": "0.11$",
+    "slogan": "Délicatesse méridionale"
+  },
+  {
+    "photo": "album/side-view-meat-stew-lamb-stew-with-fried-onion-dried-fruits-with-rice-plate.jpg",
+    "description": "Couisine locale",
+    "valeur": "0.6$",
+    "slogan": "Offrande congolaise"
+  },
+  {
+    "photo": "album/fonss.jpg",
+    "description": "Couisine étrangère",
+    "valeur": "0.2$",
+    "slogan": "Accompagnement du pizza et du cola"
+  },
+  {
+    "photo": "album/téléchargement (17).jpg",
+    "description": "Couisine locale",
+    "valeur": "0.6$",
+    "slogan": "Les délices de la patisserie"
+  }
+]
