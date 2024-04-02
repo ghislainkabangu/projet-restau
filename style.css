@@ -131,7 +131,8 @@ section h3 {
 .nos_plats {
     margin: auto;
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: gray;
@@ -359,9 +360,7 @@ footer {
 
 /************************************************************/
 @media screen and (max-width:1000px) {
-    .nos_plats {
-        width: 100%;
-    }
+
 
     .equipe div {
         flex-basis: 40%;
@@ -395,6 +394,15 @@ footer {
 @media screen and (max-width:700px) {
     .nos_plats div {
         margin-top: 10px;
+    }
+
+    .nos_plats div {
+        flex-basis: 80%;
+    }
+
+    .nos_plats div img {
+        width: 100%;
+        height: auto;
     }
 
     .equipe div {
