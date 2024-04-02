@@ -11,7 +11,6 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
     animation: monAnim 5s alternate infinite;
 }
 
@@ -131,13 +130,11 @@ section h3 {
 /*********plant*****************/
 .nos_plats {
     margin: auto;
-    width: 90%;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: gray;
-
 }
 
 .nos_plats div {
