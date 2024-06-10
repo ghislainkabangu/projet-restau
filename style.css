@@ -135,14 +135,15 @@ section h3 {
     justify-content: space-around;
     flex-wrap: wrap;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: gray;
 }
 
 .nos_plats div {
     flex-basis: 20%;
     margin-top: 40px;
     padding: 10px;
+    color: gray;
     transition: ease-in-out 0.5s;
+    
 }
 
 .nos_plats div h3 {
@@ -162,6 +163,7 @@ section h3 {
 
 .nos_plats div img {
     width: 256px;
+    width: 100%;
     height: 200px;
     transition: ease-in-out 0.5s;
 }
