@@ -8,7 +8,7 @@ fetch("aliments.json", {
     for (let i = 0; i < data.length; i++) {
       const nos_plats = document.getElementById("nos_plats");
       let bloc_plat = document.createElement("div");
-      bloc_plat.title="vous êtes prêt à commender ce plat☻"
+      bloc_plat.title = "vous êtes prêt à commender ce plat☻";
       let imagePlat = document.createElement("img");
       imagePlat.src = data[i].photo;
       let descrip = document.createElement("h3");

@@ -143,7 +143,7 @@ section h3 {
     padding: 10px;
     color: gray;
     transition: ease-in-out 0.5s;
-    
+
 }
 
 .nos_plats div h3 {
@@ -309,15 +309,17 @@ button:hover {
     transition: 0.5s;
     padding: 20px;
 }
+
 /******************************localisation****************************/
-#map{
+#map {
     margin-top: 200px;
     height: 500px;
-   
+
 }
+
 /********************************footer*******************************/
 footer {
-   
+
     background-color: gray;
     color: gainsboro;
     padding: 20px;
@@ -362,7 +364,7 @@ footer {
 
 .Copyright {
     text-align: center;
-    color:white;
+    color: white;
     font-size: small;
 }
 
