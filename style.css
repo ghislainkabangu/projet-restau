@@ -394,6 +394,9 @@ footer {
         flex-basis: 80%;
         margin-top: 50px;
     }
+    .nos_plats div {
+        flex-basis: 40%;
+    }
 
     .formulaire {
         width: 80%;
@@ -402,11 +405,10 @@ footer {
 }
 
 @media screen and (max-width:700px) {
-    .nos_plats div {
-        margin-top: 10px;
-    }
+   
 
     .nos_plats div {
+        margin-top: 10px;
         flex-basis: 80%;
     }
 
