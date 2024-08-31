@@ -1,8 +1,15 @@
 body {
     margin: auto;
-    background-color: white;
+    background-color:black;
+    color: white;
+    font-family: "Quicksand", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 /*****************************header**********************************/
 header {
     padding: 30px;
@@ -37,7 +44,6 @@ header h2 {
 header p {
     color: white;
     font-size: large;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 @keyframes monAnim {
@@ -72,9 +78,9 @@ main {
 main div {
     flex-basis: 25%;
     text-align: center;
-    box-shadow: 0px 0px 10px whitesmoke;
+    box-shadow: 0px 0px 10px white;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     transition: ease all 0.5s;
 }
 
@@ -89,12 +95,16 @@ main div a {
 }
 
 main div h4{
-    color: orangered;
+    color: orange;
     font-family: "Pacifico", cursive;
 }
 main div p {
     text-align: justify;
-    color: gray;
+    color: white;
+    font-family: "Quicksand", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
     
 }
 
@@ -109,7 +119,7 @@ section {
 section h2 {
     font-size: 30px;
     text-align: center;
-    color: orangered;
+    color: orange;
     font-family: "Pacifico", cursive;
 
 }
@@ -123,7 +133,7 @@ section h2 {
 section h3 {
     text-align: center;
     font-size: 17px;
-    color: gray;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -140,15 +150,14 @@ section h3 {
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .nos_plats div {
     flex-basis: 20%;
     margin-top: 40px;
     padding: 10px;
-    color: gray;
-    box-shadow: 0px 0px 3px gainsboro;
+    color: white;
+    box-shadow: 0px 0px 5px white;
     border-radius: 5px;
     transition: ease-in-out 0.5s;
 
@@ -156,12 +165,12 @@ section h3 {
 
 .nos_plats div h3 {
     text-align: left;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: large;
+    font-size: 25px;
 }
 
 .nos_plats div h4 {
-    font-size: 23px;
+    font-size: 25px;
+    color: orange;
 }
 
 .nos_plats div:hover {
@@ -174,15 +183,16 @@ section h3 {
     height: 150px;
     object-fit: cover;
     border-radius: 50%;
-    transition: ease-in-out 0.5s;
+    border: 3px solid white;
 }
 
 
 .nos_plats div a {
     text-decoration: none;
-    color: white;
-    background-color: orangered;
+    color: black;
+    background-color: orange;
     padding: 5px;
+    font-weight: bold;
     font-size: 12px;
     border-radius: 5px;
     transition: 0.5s;
@@ -190,10 +200,9 @@ section h3 {
 
 
 .nos_plats div a:hover {
-    background-color: white;
-    color: orangered;
-    border: 1px solid orangered;
-    font-weight: bold;
+  background-color: black;
+    color: orange;
+    border: 1px solid orange;
     letter-spacing: 2px;
     cursor: pointer;
     transition: 0.5s;
@@ -202,18 +211,18 @@ section h3 {
 /************************************article*************************/
 article {
     margin-top: 100px;
-    background-color: orangered;
+    background-color: orange;
     padding: 10px;
+    
 }
 
 article h2 {
     text-align: center;
     font-size: 28px;
-    color: white;
+    color: black;
 }
 
 article h2 {
-
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
@@ -236,19 +245,20 @@ article h2 {
 .equipe div img {
     width: 100px;
     height: 100px;
-    border:1px solid white;
+    object-fit: cover;
     border-radius: 50%;
+    border: 3px solid white;
 }
 
 .equipe div h4 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
+    color: black;
 }
 
 .equipe div p {
     color: whitesmoke;
     font-size: small;
-    font-family: Arial, Helvetica, sans-serif;
+    color: black;
 }
 
 /**********************formulaire de contact***********************/
@@ -259,10 +269,8 @@ article h2 {
 
 .formulaireDeContact h2 {
     text-align: center;
-    color: orangered;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: orange;
     font-family: "Pacifico", cursive;
-    ;
     font-size: 30px;
 }
 
@@ -272,12 +280,11 @@ article h2 {
     padding: 20px;
     box-shadow: 0px 0px 3px gainsboro;
     background-color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .formulaire h4 {
     color: black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: orange;
 }
 
 form input,
@@ -302,11 +309,11 @@ textarea::-webkit-input-placeholder {
 
 form input,
 textarea:focus {
-    outline-color: orangered;
+    outline-color: orange;
 }
 
 button {
-    background-color: orangered;
+    background-color: orange;
     border: none;
     padding: 10px;
     color: white;
@@ -327,10 +334,7 @@ button:hover {
 
 /********************************footer*******************************/
 footer {
-
-    background-color: gray;
     background-color: black;
-    color: gainsboro;
     padding: 20px;
     cursor: pointer;
 }
@@ -344,14 +348,13 @@ footer {
 
 .contente_footer div {
     flex-basis: 20%;
-    font-family: Arial, Helvetica, sans-serif;
     margin-top: 20px;
 
 }
 
 .contente_footer div h4 {
     font-size: 20px;
-    color: white;
+    color: orange;
 }
 
 .contente_footer div a {
