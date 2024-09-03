@@ -1,15 +1,17 @@
 body {
     margin: auto;
-    background-color:black;
+    background-color: black;
     color: white;
     font-family: "Quicksand", system-ui;
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
 /*****************************header**********************************/
 header {
     padding: 30px;
@@ -23,7 +25,7 @@ header {
 
 header h1,
 h2 {
-  
+
     font-size: 90px;
     font-family: Bradley Hand ITC;
     color: white;
@@ -94,10 +96,11 @@ main div a {
     text-decoration: none;
 }
 
-main div h4{
+main div h4 {
     color: orange;
     font-family: "Pacifico", cursive;
 }
+
 main div p {
     text-align: justify;
     color: white;
@@ -105,7 +108,7 @@ main div p {
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
-    
+
 }
 
 /**********************section***********************************/
@@ -173,7 +176,7 @@ section h3 {
 }
 
 .nos_plats div:hover {
- 
+
     transition: ease-in-out 0.5s;
 }
 
@@ -199,7 +202,7 @@ section h3 {
 
 
 .nos_plats div a:hover {
-  background-color: black;
+    background-color: black;
     color: orange;
     border: 1px solid orange;
     letter-spacing: 2px;
@@ -212,7 +215,7 @@ article {
     margin-top: 100px;
     background-color: orange;
     padding: 10px;
-    
+
 }
 
 article h2 {
